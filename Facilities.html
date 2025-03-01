@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المرافق - هول ان ون</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            line-height: 1.6;
+            background-image: url("https://tse4.mm.bing.net/th?id=OIP.-wZvQaJI6xGqwIISBnnVdAHaDN&pid=Api&P=0&h=220");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        header {
+            background-color: #005b8a;
+            padding: 15px;
+            color: white;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 0 15px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ffc107;
+        }
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #005b8a;
+        }
+
+        .facility {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: row-reverse; 
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .facility h3 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #005b8a;
+        }
+
+        .facility p {
+            font-size: 16px;
+            color: #666;
+            text-align: right; 
+            max-width: 500px;
+        }
+
+        .facility .button {
+            padding: 10px 20px;
+            background-color: #ffc107;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .facility .button:hover {
+            background-color: #e0a800;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Home.html">الرئيسية</a></li>
+                <li><a href="Facilities.html">المرافق</a></li>
+                <li><a href="Packages.html">الحزم</a></li>
+                <li><a href="Contact Us.html">اتصل بنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="facilities">
+        <h2>المرافق</h2>
+
+        <div class="facility">
+            <h3>ثلاثة ملاعب لبطولات الجولف</h3>
+            <p>ملاعب رائعة لبطولات الجولف بما في ذلك ملعب "سي فيو" الشهير. الملاعب مصممة خصيصًا لتلبية احتياجات اللاعبين المبتدئين والمحترفين.</p>
+            <a href="Reservations.html" class="button">حجز الآن</a>
+        </div>
+
+        <div class="facility">
+            <h3>ناديان</h3>
+            <p>نوفر لك ناديين فاخرين ومرافق مثالية للاسترخاء بعد يوم طويل من اللعب. يمكنك الاستمتاع بالخدمات الفاخرة داخل النادي.</p>
+            <a href="Reservations.html" class="button">حجز الآن</a>
+        </div>
+
+        <div class="facility">
+            <h3>الإقامة في الفنادق</h3>
+            <p>استمتع بإقامة مريحة في فنادقنا الفاخرة المتوفرة مع إطلالات خلابة على الملاعب والحدائق المحيطة.</p>
+            <a href="Reservations.html" class="button">حجز الآن</a>
+        </div>
+
+        <div class="facility">
+            <h3>المطاعم والمقاهي</h3>
+            <p>استمتع بتناول وجبات لذيذة في مطاعمنا الفاخرة والمقاهي التي تقدم ألذ الأطعمة والمشروبات.</p>
+            <a href="Reservations.html" class="button">حجز الآن</a>
+        </div>
+
+        <div class="facility">
+            <h3>متجر للمحترفين</h3>
+            <p>نوفر لك متجرًا مخصصًا للمحترفين يبيع أحدث معدات الجولف والملابس الخاصة باللعبة.</p>
+            <a href="Reservations.html" class="button">حجز الآن</a>
+        </div>
+
+        <div class="facility">
+            <h3>ساحة تدريب مضاءة</h3>
+            <p>ساحة تدريب مضاءة بأحدث التقنيات والتي تتيح لك التدريب في أي وقت من اليوم، سواء في الصباح أو في المساء.</p>
+            <a href="Reservations.html" class="button">حجز الآن</a>
+        </div>
+
+        <div class="facility">
+            <h3>دروس الجولف</h3>
+            <p>نقدم دروس جولف احترافية لجميع المستويات مع مدربين معتمدين لمساعدتك في تحسين مهاراتك في اللعبة.</p>
+            <a href="Reservations.html" class="button">حجز الآن</a>
+        </div>
+
+        <div class="facility">
+            <h3>التدريب الرقمي</h3>
+            <p>استخدم تقنيات التدريب الرقمي المتطورة لتطوير مهاراتك في الجولف وتحليل أدائك أثناء التدريب.</p>
+            <a href="Reservations.html" class="button">حجز الآن</a>
+        </div>
+
+        <div class="facility">
+            <h3>خدمة المساعدة على حمل أدوات الجولف</h3>
+            <p>نقدم خدمة المساعدة في حمل أدوات الجولف لضمان راحتك خلال تجربة الجولف.</p>
+            <a href="Reservations.html" class="button">حجز الآن</a>
+        </div>
+
+    </section>
+</body>
+</html>

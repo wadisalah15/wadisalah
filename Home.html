@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>هول ان ون - منتجع الجولف</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            text-align: center;
+            background-image: url("https://tse4.mm.bing.net/th?id=OIP.-wZvQaJI6xGqwIISBnnVdAHaDN&pid=Api&P=0&h=220");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        header {
+            background-color: #005b8a;
+            padding: 15px;
+            color: white;
+            font-size: 24px;
+            position: relative;
+        }
+
+        .container {
+            padding: 40px 20px;
+        }
+
+        .intro {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .intro h2 {
+            margin-bottom: 15px;
+            color: #005b8a;
+        }
+
+        .intro p {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #444;
+            max-width: 700px;
+        }
+
+        .boxes {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .box {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .box:hover {
+            transform: scale(1.05);
+        }
+
+        .box img {
+            width: 100%;
+            height: 180px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .box h3 {
+            color: #005b8a;
+            margin-bottom: 10px;
+        }
+
+        .box p {
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+
+        .box a {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #ffc107;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .box a:hover {
+            background-color: #e0a800;
+        }
+
+        .special-offer {
+            display: flex;
+            justify-content: center;  
+            align-items: center;     
+            margin-bottom: 30px;
+        }
+
+        /* تنسيق زر "إنشاء حساب" */
+        .signup-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            text-align: center;
+        }
+
+        .create-account-btn {
+            background-color: #ffc107; /* تغيير اللون إلى الأصفر */
+            color: white;
+            padding: 8px 20px; /* تقليص حجم الزر */
+            border: none;
+            border-radius: 5px;
+            font-size: 16px; /* تقليص حجم الخط */
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .create-account-btn:hover {
+            background-color: #e0a800; /* تغيير اللون عند التمرير */
+            transform: scale(1.05);
+        }
+
+        .create-account-btn:focus {
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <header>هول ان ون - منتجع الجولف</header>
+
+    
+    <a href="Log in.html" class="signup-btn">
+        <button class="create-account-btn">إنشاء حساب</button>
+    </a>
+
+    <div class="container">
+        <div class="intro">
+            <h2>مرحبًا بكم في هول ان ون</h2>
+            <p>
+                منتجع <strong>هول ان ون</strong> هو الوجهة المثالية لمحبي الجولف الفاخر. يجمع المنتجع بين الفخامة والرياضة من خلال تقديم ملاعب جولف عالمية المستوى،
+                منتجعات راقية، ومرافق ترفيهية تلبي تطلعات جميع الزوار. سواء كنت تبحث عن تجربة جولف تنافسية، أو ترغب في الاستمتاع بإقامة هادئة، ستجد كل ما تحلم به هنا.
+            </p>
+            <p>
+                تأسس منتجعنا ليكون وجهة رئيسية لعشاق الجولف، حيث نوفر برامج تدريبية للاعبين الجدد، كما نقدم بطولات لمحترفي اللعبة. استمتع بأفضل الخدمات،
+                بدءًا من الإقامة الفاخرة وحتى المطاعم الفاخرة، مما يجعل "هول ان ون" خيارك المثالي لقضاء وقت مميز.
+            </p>
+        </div>
+
+        <div class="special-offer">
+            <div class="box">
+                <img src="https://i.pinimg.com/736x/47/bb/39/47bb396f16b54077ce35d7fee44477af.jpg" alt="عرض الخصومات الخاصة">
+                <h3>عرض خاص</h3>
+                <p>استفد من عروضنا الحصرية على الإقامة والأنشطة الترفيهية.</p>
+                <a href="Packages.html">المزيد</a>
+            </div>
+        </div>
+
+        <div class="boxes">
+            <div class="box">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.0uiJ45-KMRPqTf8Pfk_9CQHaDt&pid=Api&P=0&h=220" alt="المرافق">
+                <h3>المرافق</h3>
+                <p>تعرف على ملاعبنا الفاخرة والخدمات المتاحة لدينا، بما في ذلك المطاعم، النوادي، وحمامات السباحة.</p>
+                <a href="Facilities.html">المزيد</a>
+            </div>
+            <div class="box">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.sRQ5QSJNhchK2ds6-_1fMwHaE8&pid=Api&P=0&h=220" alt="الحزم">
+                <h3>الحزم</h3>
+                <p>استمتع بإقامة مميزة مع عروضنا الخاصة للحزم التي تشمل الإقامة، الجولات، والأنشطة الترفيهية.</p>
+                <a href="Packages.html">المزيد</a>
+            </div>
+            <div class="box">
+                <img src="https://aljazairtech.com/wp-content/uploads/2022/06/%D8%A7%D8%AA%D8%B5%D9%84-%D8%A8%D9%86%D8%A7.jpg" alt="اتصل بنا">
+                <h3>اتصل بنا</h3>
+                <p>لأي استفسارات أو حجوزات، لا تتردد في التواصل معنا عبر الهاتف أو البريد الإلكتروني.</p>
+                <a href="Contact Us.html">المزيد</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
